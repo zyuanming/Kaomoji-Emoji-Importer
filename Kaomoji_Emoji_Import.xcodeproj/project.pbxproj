@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60BBC4DF1D58841C004F79B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4DE1D58841C004F79B9 /* main.swift */; };
+		60BBC4F11D588445004F79B9 /* NSData+EnumerateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4E61D588445004F79B9 /* NSData+EnumerateComponents.swift */; };
+		60BBC4F21D588445004F79B9 /* SMJEmojiImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4E81D588445004F79B9 /* SMJEmojiImporter.swift */; };
+		60BBC4F31D588445004F79B9 /* SMJFileImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4E91D588445004F79B9 /* SMJFileImporter.swift */; };
+		60BBC4F41D588445004F79B9 /* SMJImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4EA1D588445004F79B9 /* SMJImporter.swift */; };
+		60BBC4F51D588445004F79B9 /* SMJImportOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4EB1D588445004F79B9 /* SMJImportOperation.swift */; };
+		60BBC4F61D588445004F79B9 /* SMJKaomojiImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4EC1D588445004F79B9 /* SMJKaomojiImporter.swift */; };
+		60BBC4F71D588445004F79B9 /* SMJReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4ED1D588445004F79B9 /* SMJReader.swift */; };
+		60BBC4F81D588445004F79B9 /* SMJEmojiSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4EF1D588445004F79B9 /* SMJEmojiSearchModel.swift */; };
+		60BBC4F91D588445004F79B9 /* SMJKaomojiSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4F01D588445004F79B9 /* SMJKaomojiSearchModel.swift */; };
+		60BBC4FD1D588AD4004F79B9 /* SMJLocalSearch.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC4FC1D588AD4004F79B9 /* SMJLocalSearch.xcdatamodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60BBC4D91D58841C004F79B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		60BBC4DB1D58841C004F79B9 /* Kaomoji_Emoji_Import */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kaomoji_Emoji_Import; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BBC4DE1D58841C004F79B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		60BBC4E61D588445004F79B9 /* NSData+EnumerateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+EnumerateComponents.swift"; sourceTree = "<group>"; };
+		60BBC4E81D588445004F79B9 /* SMJEmojiImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJEmojiImporter.swift; sourceTree = "<group>"; };
+		60BBC4E91D588445004F79B9 /* SMJFileImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJFileImporter.swift; sourceTree = "<group>"; };
+		60BBC4EA1D588445004F79B9 /* SMJImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJImporter.swift; sourceTree = "<group>"; };
+		60BBC4EB1D588445004F79B9 /* SMJImportOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJImportOperation.swift; sourceTree = "<group>"; };
+		60BBC4EC1D588445004F79B9 /* SMJKaomojiImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJKaomojiImporter.swift; sourceTree = "<group>"; };
+		60BBC4ED1D588445004F79B9 /* SMJReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJReader.swift; sourceTree = "<group>"; };
+		60BBC4EF1D588445004F79B9 /* SMJEmojiSearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJEmojiSearchModel.swift; sourceTree = "<group>"; };
+		60BBC4F01D588445004F79B9 /* SMJKaomojiSearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMJKaomojiSearchModel.swift; sourceTree = "<group>"; };
+		60BBC4FC1D588AD4004F79B9 /* SMJLocalSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMJLocalSearch.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BBC4D81D58841C004F79B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BBC4D21D58841C004F79B9 = {
+			isa = PBXGroup;
+			children = (
+				60BBC4DD1D58841C004F79B9 /* Kaomoji_Emoji_Import */,
+				60BBC4DC1D58841C004F79B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60BBC4DC1D58841C004F79B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BBC4DB1D58841C004F79B9 /* Kaomoji_Emoji_Import */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BBC4DD1D58841C004F79B9 /* Kaomoji_Emoji_Import */ = {
+			isa = PBXGroup;
+			children = (
+				60BBC4FC1D588AD4004F79B9 /* SMJLocalSearch.xcdatamodel */,
+				60BBC4E51D588445004F79B9 /* Extension */,
+				60BBC4E71D588445004F79B9 /* Importer */,
+				60BBC4EE1D588445004F79B9 /* Model */,
+				60BBC4DE1D58841C004F79B9 /* main.swift */,
+			);
+			path = Kaomoji_Emoji_Import;
+			sourceTree = "<group>";
+		};
+		60BBC4E51D588445004F79B9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				60BBC4E61D588445004F79B9 /* NSData+EnumerateComponents.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		60BBC4E71D588445004F79B9 /* Importer */ = {
+			isa = PBXGroup;
+			children = (
+				60BBC4E81D588445004F79B9 /* SMJEmojiImporter.swift */,
+				60BBC4E91D588445004F79B9 /* SMJFileImporter.swift */,
+				60BBC4EA1D588445004F79B9 /* SMJImporter.swift */,
+				60BBC4EB1D588445004F79B9 /* SMJImportOperation.swift */,
+				60BBC4EC1D588445004F79B9 /* SMJKaomojiImporter.swift */,
+				60BBC4ED1D588445004F79B9 /* SMJReader.swift */,
+			);
+			path = Importer;
+			sourceTree = "<group>";
+		};
+		60BBC4EE1D588445004F79B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60BBC4EF1D588445004F79B9 /* SMJEmojiSearchModel.swift */,
+				60BBC4F01D588445004F79B9 /* SMJKaomojiSearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BBC4DA1D58841C004F79B9 /* Kaomoji_Emoji_Import */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BBC4E21D58841C004F79B9 /* Build configuration list for PBXNativeTarget "Kaomoji_Emoji_Import" */;
+			buildPhases = (
+				60BBC4D71D58841C004F79B9 /* Sources */,
+				60BBC4D81D58841C004F79B9 /* Frameworks */,
+				60BBC4D91D58841C004F79B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaomoji_Emoji_Import;
+			productName = Kaomoji_Emoji_Import;
+			productReference = 60BBC4DB1D58841C004F79B9 /* Kaomoji_Emoji_Import */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BBC4D31D58841C004F79B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Baidu;
+				TargetAttributes = {
+					60BBC4DA1D58841C004F79B9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 60BBC4D61D58841C004F79B9 /* Build configuration list for PBXProject "Kaomoji_Emoji_Import" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60BBC4D21D58841C004F79B9;
+			productRefGroup = 60BBC4DC1D58841C004F79B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BBC4DA1D58841C004F79B9 /* Kaomoji_Emoji_Import */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BBC4D71D58841C004F79B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BBC4F31D588445004F79B9 /* SMJFileImporter.swift in Sources */,
+				60BBC4FD1D588AD4004F79B9 /* SMJLocalSearch.xcdatamodel in Sources */,
+				60BBC4F91D588445004F79B9 /* SMJKaomojiSearchModel.swift in Sources */,
+				60BBC4F21D588445004F79B9 /* SMJEmojiImporter.swift in Sources */,
+				60BBC4F11D588445004F79B9 /* NSData+EnumerateComponents.swift in Sources */,
+				60BBC4F81D588445004F79B9 /* SMJEmojiSearchModel.swift in Sources */,
+				60BBC4F51D588445004F79B9 /* SMJImportOperation.swift in Sources */,
+				60BBC4F61D588445004F79B9 /* SMJKaomojiImporter.swift in Sources */,
+				60BBC4F41D588445004F79B9 /* SMJImporter.swift in Sources */,
+				60BBC4DF1D58841C004F79B9 /* main.swift in Sources */,
+				60BBC4F71D588445004F79B9 /* SMJReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60BBC4E01D58841C004F79B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Debug;
+		};
+		60BBC4E11D58841C004F79B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Release;
+		};
+		60BBC4E31D58841C004F79B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Debug;
+		};
+		60BBC4E41D58841C004F79B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BBC4D61D58841C004F79B9 /* Build configuration list for PBXProject "Kaomoji_Emoji_Import" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BBC4E01D58841C004F79B9 /* Debug */,
+				60BBC4E11D58841C004F79B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BBC4E21D58841C004F79B9 /* Build configuration list for PBXNativeTarget "Kaomoji_Emoji_Import" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BBC4E31D58841C004F79B9 /* Debug */,
+				60BBC4E41D58841C004F79B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60BBC4D31D58841C004F79B9 /* Project object */;
+}

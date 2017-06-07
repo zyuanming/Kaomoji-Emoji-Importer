@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="SMJEmojiSearchModel" representedClassName=".SMJEmojiSearchModel" syncable="YES">
+        <attribute name="emoji" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="name"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="SMJKaomojiSearchModel" representedClassName=".SMJKaomojiSearchModel" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="kaomoji" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="name"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="SMJEmojiSearchModel" positionX="-45" positionY="0" width="128" height="90"/>
+        <element name="SMJKaomojiSearchModel" positionX="-9" positionY="63" width="128" height="90"/>
+    </elements>
+</model>
